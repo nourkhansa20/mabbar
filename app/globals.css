@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FFF;
+  --secondary: #FF1C42;
+}
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 0.5px black;
+    color: transparent;
+  }
+
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
+
+.backgroundImage {
+  background-image: url('/AboutUsBackgroundImage.png');
+}
